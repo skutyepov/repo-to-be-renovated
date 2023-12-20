@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "force": {
+    "constraints": {
+      "node": "^18.0.0"
+    }
+  },
+  "postUpgradeTasks": {
+    "commands": [
+      "node fail-if-not-node-18.js"
+    ]
+  }
+}
