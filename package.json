@@ -2,7 +2,7 @@
   "name": "repo-to-be-renovated",
   "version": "1.0.0",
   "dependencies": {
-    "react": "16.0.0"
+    "react": "16.14.0"
   },
   "engines": {
     "node": "^18.0.0"
